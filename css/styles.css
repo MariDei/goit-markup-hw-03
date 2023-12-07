@@ -43,6 +43,11 @@ img {
     outline-offset: -2px;
 }
 
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 /* Header */
 .header {
     width: 1440px;
@@ -120,15 +125,18 @@ img {
 }
 
 /* Main */
-/* Section studio */
+/* Hero section */
 .hero-section {
     width: 1440px;
+    padding: 188px 0 188px 0;
     background-color: #2E2F42;
 }
 
 .hero-title {
     width: 496px;
-    padding: 188px auto 48px auto;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
     color: #FFF;  
     font-size: 56px;
     font-weight: 700;
@@ -138,12 +146,13 @@ img {
 }
 
 .hero-button {
-    display: inline-flex;
+    display: block;  
+    align-items: center;
+    min-width: 169px;
     padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    margin: 48px 479px 188px 478px;
+    margin: 0 auto;
     text-align: center;
+    border-radius: 4px;
     background-color: #4D5AE5;
     color: #FFF;
     font-size: 16px;
@@ -151,6 +160,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+
 }
 
 .hero-button:hover,
