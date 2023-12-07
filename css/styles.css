@@ -262,9 +262,15 @@ img {
     border: 1px solid #E7E9FC;
 }
 /* Footer */
-
 .footer-menu {
+    width: 1440px;
     background-color: #2E2F42;
+}
+
+footer .logo {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 101.5px;
 }
 
 .logo-footer {
@@ -272,6 +278,9 @@ img {
 }
 
 .footer-text {
+    width: 264px;
+    padding-top: 17.5px;
+    padding-bottom: 100px;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
