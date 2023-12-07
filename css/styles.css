@@ -43,11 +43,6 @@ img {
     outline-offset: -2px;
 }
 
-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 /* Header */
 .header {
     width: 1440px;
@@ -160,7 +155,6 @@ section {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-
 }
 
 .hero-button:hover,
@@ -180,6 +174,21 @@ section {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.feature-section,
+.team-section,
+.portfolio-section {
+    padding: 120px 0 120px 0;
+}
+
+.feature-list {
+    display: flex;
+    gap: 24px;
+}
+
+.feature-li {
+    width: calc((100% - 72px) / 4);
 }
 
 .feature-title,
