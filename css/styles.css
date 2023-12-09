@@ -74,6 +74,7 @@ img {
 .logo {
   display: inline-flex;
   align-items: center;
+  margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -84,7 +85,6 @@ img {
 }
 
 .logo-header {
-  margin-right: 76px;
   color: #2e2f42;
 }
 
