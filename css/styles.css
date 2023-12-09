@@ -54,6 +54,8 @@ img {
 
 /* Header */
 .header {
+  margin: 0 auto;
+  padding: 0 15px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -61,7 +63,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-nav {
@@ -92,8 +93,13 @@ img {
   gap: 40px;
 }
 
+.nav-items li:last-child {
+  margin-right: 0;
+}
+
 .nav-link {
   display: block;
+  padding: 24px 0;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
